@@ -1,0 +1,124 @@
+body {
+  background-color: #0047AB; /* Azul fuerte */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.contenedor {
+  background: #e8e7e2;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+input[type="password"],
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 0.7rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  background-color: #007BFF;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.ayuda-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.ayuda-link:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+
+
+
+button.confirmar {
+  background-color: #4CAF50;
+}
+
+button.cancelar {
+  background-color: #f44336;
+}
+
+button.opcion {
+  background-color: #008CBA;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+
+.logo {
+  width: auto;
+  max-width: 60%;
+  height: auto;
+}
+
+
+button {
+  padding: 0.7rem;
+  margin: 0.5rem;
+}
+
+button:nth-child(1) {
+  background-color: #4CAF50;
+}
+
+button:nth-child(2) {
+  background-color: #f44336;
+}
+
+button {
+  margin: 0.5rem 0;
+  padding: 0.7rem 1.2rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
